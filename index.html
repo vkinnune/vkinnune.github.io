@@ -1,12 +1,89 @@
 <html>
-	<h1>Valtteri's Personal Website</h1>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<head>
+		<style>
+			body {
+				background-color: #1a1a1a;
+				display: flex;
+				flex-wrap: wrap;
+			}
+			h1 {
+				color: #dedede;
+				font-family: arial;
+			}
+			#leftcontent {
+				padding-left: 10vh;
+				flex: 30%;
+				color: #dedede;
+				font-family: arial;
+			}
+			#rightcontent {
+				flex: 30%;
+				height: 10vh;
+				width: 50vh;
+				align: right;
+			}
+			img {
+				padding: 10px;
+				padding-left: 50px;
+				width: 700px;
+				height: auto;
+			}
+			#header {
+				padding-left: 10vh;
+				flex: 100%;
+			}
+			.fa {
+			  padding: 15px;
+			  font-size: 20px;
+			  width: 25px;
+			  text-align: center;
+			  text-decoration: none;
+			  border-radius: 80%;
+			}
+			.fa:hover {
+				opacity: 0.6;
+			}
+			.fa-github {
+				background: #3B5998;
+				color: white;
+			}
+			.fa-twitter {
+				background: #3B5998;
+				color: white;
+			}
+			.fa-linkedin {
+				background: #3B5998;
+				color: white;
+			}
+
+		</style>
+	</head>
+	<div id="header">
+		<h1>Valtteri Kinnunen</h1>
+		<a href="https://github.com/vkinnune" class="fa fa-github"></a>
+		<a href="https://twitter.com/valtteriak" class="fa fa-twitter"></a>
+		<a href="https://www.linkedin.com/in/valtterikinnunen/" class="fa fa-linkedin"></a>
+	</div>
+	<div id="leftcontent">
 	<h2>About me</h2>
+	<p>I’m a programming student at Hive Helsinki.</p>
+	<p>I have liked studying at Hive. It has been better than sitting at a school desk twiddling thumbs.</p>
+	<p>On my github, you can find my school projects.</p>
+	<h2>My experience</h2>
+	<p>I'm the most experienced in C. I have played around in other languages as well like JavaScript and Python.</p>
+	<p>The programs I use for programming:</p>
 	<ul>
-		<li><a href="projects.html">Projects</a></li>
-		<li>Pictures</li>
-		<li>Blog</li>
-		<li>Github</li>
-		<li>LinkedIn</li>
-		<li>Contact</li>
+		<li>Git</li>
+		<li>Valgrind</li>
+		<li>gdb - GNU Debugger</li>
+		<li>dwm - tiling window manager</li>
+		<li>Vim</li>
 	</ul>
+	<p>In my free time, I attend hackathons, go to Startup and tech events, and our school organizes company excursions.</p>
+	<p>I’m currently taking the University of Helsinki Full Stack open course.</p>
+	</div>
+	<div id="rightcontent">
+		<img id="pic" src="mypicture.jpg" alt="A portrait of myself">
+	</div>
 </html>
