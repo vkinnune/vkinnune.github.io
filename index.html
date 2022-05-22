@@ -27,7 +27,7 @@
 				align-self: center;
 				flex-direction: column;
 			}
-			img {
+			#pic {
 				display: flex;
 				padding-left: 50px;
 				padding-right: 10vh;
@@ -62,6 +62,28 @@
 				background: #3B5998;
 				color: white;
 			}
+			#footer {
+				display: flex;
+				padding-left: 5vh;
+				padding-right: 5vh;
+				flex: 100%;
+				color: #dedede;
+				font-family: arial;
+				flex-wrap: wrap;
+			}
+			#footer > div {
+				border-top: 1px solid #dedede;
+				margin-top: 10px;
+				margin-right: 10px;
+				padding: 5px;
+			}
+			#smallpic {
+				width: 10vh;
+				height: auto;
+			}
+			a {
+				color: lightblue;
+			}
 
 		</style>
 	</head>
@@ -92,4 +114,24 @@
 	<div id="rightcontent">
 		<img id="pic" src="mypicture.jpg" alt="A portrait of myself">
 	</div>
+	<footer id="footer">
+		<div>
+		<p>Contact me:</p>
+		<p><a href="mailto:valtteri@tekve.fi">valtteri@tekve.fi</a></p>
+		<p><a href="tel:0453551470">0453551470</a></p>
+		</div>
+		<div>
+		<p>My writings:</p>
+		<!--<p><a href="https://lukesmith.xyz/c/monerotopia-presentation-and-website-news">Presentation and website news</a></p>
+		<p><a href="google.com">How to install arch linux</a></p>
+			<p><a href="google.com">See all writings</a></p> -->
+		</div>
+		<div>
+		<p>My pictures:</p>
+		<img id="smallpic" src="pictures/IMG_0174.jpg" alt="A portrait of myself">
+		<img id="smallpic" src="pictures/IMG_0328.jpg" alt="A portrait of myself">
+		<img id="smallpic" src="pictures/IMG_0433.jpg" alt="A portrait of myself">
+		<!--<p><a href="google.com">See all pictures</a></p>-->
+		</div>
+	</footer>
 </html>
